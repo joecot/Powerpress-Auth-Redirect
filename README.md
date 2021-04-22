@@ -26,10 +26,14 @@ Relatedly, I strongly encourage everyone to check out [The British History Podca
 1. Activate this plugin in Wordpress. 
 
 1. **Test your premium feeds**. Recommend doing so in cognito / private browsing mode, as once your browser receives a response besides a 401 error, it will not attempt a login prompt again until you close and open it.
-  a. If you go to one in your browser, it should still show a login prompt.
-  b. If you give a working login, you should receive your normal members feed
-  c. If you give a bad login, you should be redirected to your error feed.
-  d. If you add your user agent to `POWERPRESS_AUTH_REDIRECT_USERAGENTS`, or your IP address to `POWERPRESS_AUTH_REDIRECT_IPS`, you should receive no login prompt at all, going straight to the error feed.
+
+    a. If you go to one in your browser, it should still show a login prompt.
+
+    b. If you give a working login, you should receive your normal members feed
+
+    c. If you give a bad login, you should be redirected to your error feed.
+    
+    d. If you add your user agent to `POWERPRESS_AUTH_REDIRECT_USERAGENTS`, or your IP address to `POWERPRESS_AUTH_REDIRECT_IPS`, you should receive no login prompt at all, going straight to the error feed.
   
   
 ## TODO
