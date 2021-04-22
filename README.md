@@ -7,7 +7,7 @@ Unfortunately most Podcast apps do not understand HTTP authentication, or don't 
 
 **Powerpress Auth Redirect** resolves this issue with a simple change. Instead of returning an error if a feed's login is incorrect, users are instead redirected to another feed you create for handling errors. On this feed you can publish an episode explaining that they need to setup their Podcast app correctly, or move to another app.
 
-Relatedly, I strongly encourage everyone to check out [The British History Podcast](https://www.thebritishhistorypodcast.com/ "The British History Podcast"), an excellent podcast covering British history from the stone age, through the Celts, Anglo-Saxons, Normans, and beyond.
+Relatedly, I strongly encourage everyone to check out [The British History Podcast](https://www.thebritishhistorypodcast.com/ "The British History Podcast"), an excellent podcast covering British history from the stone age, through the Celts, Anglo-Saxons, Normans, and beyond. Also, in return for this plugin, Jamie publicly released this member's only episode about [The Poet's Curse](https://www.thebritishhistorypodcast.com/bonus-episode-from-the-archive/ "The Poet's Curse"). It's a story of the Celt King of Ulster, Mongán mac Fíachnai, and his run-in with a very testy Chief Poet of Ireland. It is excellent storytelling, requires no prior knowledge of the podcast, and you should listen to it right now.
 
 ## Setup
 
@@ -32,7 +32,7 @@ Relatedly, I strongly encourage everyone to check out [The British History Podca
     b. If you give a working login, you should receive your normal members feed
 
     c. If you give a bad login, you should be redirected to your error feed.
-    
+
     d. If you add your user agent to `POWERPRESS_AUTH_REDIRECT_USERAGENTS`, or your IP address to `POWERPRESS_AUTH_REDIRECT_IPS`, you should receive no login prompt at all, going straight to the error feed.
   
   
